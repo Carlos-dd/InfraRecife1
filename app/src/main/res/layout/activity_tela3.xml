@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040"
+    android:scrollbarSize="10dp"
+    tools:context=".Tela3Activity">
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#F44336"
+        android:drawableTint="#2196F3"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#000000"
+        android:shadowColor="#2196F3"
+        android:text="Enviar!"
+        android:textColor="#000000"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2196F3"
+        app:strokeColor="#2196F3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="446dp"
+        android:layout_height="444dp"
+        app:srcCompat="@drawable/png_transparent_low_angle_roads_pavement_road_highway"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="-164dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tire a foto das imperfeições"
+        android:textColor="#FFFBFB"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="275dp"
+        android:layout_height="212dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
